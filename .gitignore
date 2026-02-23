@@ -1,0 +1,57 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# ========================
+# Django
+# ========================
+db.sqlite3
+*.sqlite3
+media/
+staticfiles/
+
+# Django cache & logs
+*.log
+
+# ========================
+# Environment variables
+# ========================
+.env
+.env.*
+
+# ========================
+# Migrations cache
+# ========================
+**/__pycache__/
+
+# ========================
+# OS files
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# IDE / Editor
+# ========================
+.vscode/
+.idea/
+
+# ========================
+# Testing
+# ========================
+.coverage
+htmlcov/
+
+# ========================
+# Misc
+# ========================
+*.swp

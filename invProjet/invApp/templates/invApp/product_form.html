@@ -1,0 +1,13 @@
+{% extends "invApp/layout.html" %}
+
+{% block title %} Home {% endblock %}
+
+{% block content %} 
+<h1 class="text-center">Formulaire Produits</h1>
+<form method="POST" class="jumbotron">
+    {% csrf_token %}
+    {{form}}
+    <button class="btn btn-success btn-block mt-2" type="submit">Valider le form</button>
+
+</form>
+{% endblock %}

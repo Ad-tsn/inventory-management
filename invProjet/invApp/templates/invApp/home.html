@@ -1,0 +1,19 @@
+{% extends "invApp/layout.html" %}
+
+{% block title %} Home {% endblock %}
+
+{% block content %} 
+<div class="jumbotron text-center">
+    <h1 class="display-4">
+        Bienvenu dans le système de gestion d'inventaire
+    </h1>
+    <p class="lead">
+        Gérer la gestion de votre inventaire de manière éfficace.
+    </p>
+    <hr class="my-4">
+    <p>
+        Utilisez la barre de navigation pour ajouter, voir, mettre à jour ou supprimer des produits.
+    </p>
+    <a href="{% url 'product_list' %}" class="btn btn-primary btn-lg" role="button">Voir tout les produits</a>
+</div>
+{% endblock %}
